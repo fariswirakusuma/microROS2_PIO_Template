@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot
+CMAKE_SOURCE_DIR = /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot
+CMAKE_BINARY_DIR = /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

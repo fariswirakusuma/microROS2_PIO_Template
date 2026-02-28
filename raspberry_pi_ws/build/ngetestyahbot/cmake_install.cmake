@@ -1,8 +1,8 @@
-# Install script for directory: /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot
+# Install script for directory: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot")
+  set(CMAKE_INSTALL_PREFIX "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,7 +49,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ngetestyahbot/stm_counter"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ngetestyahbot" TYPE EXECUTABLE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/stm_counter")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/ngetestyahbot" TYPE EXECUTABLE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/stm_counter")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ngetestyahbot/stm_counter" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/ngetestyahbot/stm_counter")
     file(RPATH_CHANGE
@@ -63,11 +63,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ngetestyahbot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/ngetestyahbot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ngetestyahbot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/ngetestyahbot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot/environment" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot/environment" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -83,42 +83,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot/environment" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot/environment" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_index/share/ament_index/resource_index/packages/ngetestyahbot")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_index/share/ament_index/resource_index/packages/ngetestyahbot")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot/cmake" TYPE FILE FILES
-    "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_core/ngetestyahbotConfig.cmake"
-    "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_core/ngetestyahbotConfig-version.cmake"
+    "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_core/ngetestyahbotConfig.cmake"
+    "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/ament_cmake_core/ngetestyahbotConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ngetestyahbot" TYPE FILE FILES "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -129,5 +129,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

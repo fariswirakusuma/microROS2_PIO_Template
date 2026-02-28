@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot
+CMAKE_SOURCE_DIR = /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot
+CMAKE_BINARY_DIR = /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/CMakeFiles /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/CMakeFiles /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

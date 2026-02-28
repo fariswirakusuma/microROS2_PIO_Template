@@ -1,5 +1,5 @@
 CMakeFiles/stm_counter.dir/src/stm_counter.cpp.o: \
- /home/ubuntunya-faris/Kuliah/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot/src/stm_counter.cpp \
+ /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot/src/stm_counter.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal \

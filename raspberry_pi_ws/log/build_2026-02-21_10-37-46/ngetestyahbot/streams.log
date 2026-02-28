@@ -1,0 +1,60 @@
+[0.017s] Invoking command in '/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot -DCMAKE_INSTALL_PREFIX=/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot
+[0.211s] -- The C compiler identification is GNU 11.4.0
+[0.443s] -- The CXX compiler identification is GNU 11.4.0
+[0.492s] -- Detecting C compiler ABI info
+[0.807s] -- Detecting C compiler ABI info - done
+[0.839s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.840s] -- Detecting C compile features
+[0.842s] -- Detecting C compile features - done
+[0.857s] -- Detecting CXX compiler ABI info
+[1.175s] -- Detecting CXX compiler ABI info - done
+[1.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.206s] -- Detecting CXX compile features
+[1.210s] -- Detecting CXX compile features - done
+[1.217s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.764s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.000s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[2.141s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.148s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.162s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.205s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.267s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.270s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.333s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.369s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.418s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.428s] -- Looking for pthread.h
+[2.714s] -- Looking for pthread.h - found
+[2.715s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.025s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.028s] -- Found Threads: TRUE  
+[3.555s] -- Configuring done
+[3.587s] -- Generating done
+[3.599s] -- Build files have been written to: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot
+[3.618s] Invoked command in '/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/ngetestyahbot -DCMAKE_INSTALL_PREFIX=/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot
+[3.628s] Invoking command in '/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot -- -j16 -l16
+[3.849s] [ 50%] [32mBuilding CXX object CMakeFiles/stm_counter.dir/src/stm_counter.cpp.o[0m
+[16.843s] [100%] [32m[1mLinking CXX executable stm_counter[0m
+[17.596s] [100%] Built target stm_counter
+[17.648s] Invoked command in '/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot -- -j16 -l16
+[17.691s] Invoking command in '/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot
+[17.727s] -- Install configuration: ""
+[17.729s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/lib/ngetestyahbot/stm_counter
+[17.739s] -- Set runtime path of "/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/lib/ngetestyahbot/stm_counter" to ""
+[17.740s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ament_index/resource_index/package_run_dependencies/ngetestyahbot
+[17.740s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ament_index/resource_index/parent_prefix_path/ngetestyahbot
+[17.742s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/environment/ament_prefix_path.sh
+[17.743s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/environment/ament_prefix_path.dsv
+[17.745s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/environment/path.sh
+[17.746s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/environment/path.dsv
+[17.747s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/local_setup.bash
+[17.748s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/local_setup.sh
+[17.748s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/local_setup.zsh
+[17.749s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/local_setup.dsv
+[17.749s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/package.dsv
+[17.750s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ament_index/resource_index/packages/ngetestyahbot
+[17.750s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/cmake/ngetestyahbotConfig.cmake
+[17.751s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/cmake/ngetestyahbotConfig-version.cmake
+[17.752s] -- Installing: /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/install/ngetestyahbot/share/ngetestyahbot/package.xml
+[17.757s] Invoked command in '/home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntunya-faris/ITB/URO/ROS_Rasppi_to_STM_min-bluepill-/raspberry_pi_ws/build/ngetestyahbot
