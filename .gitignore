@@ -2,3 +2,7 @@
 .pioenvs/
 .piolibdeps/
 .vscode/
+build
+log 
+bin
+install
