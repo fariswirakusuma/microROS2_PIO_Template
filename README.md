@@ -1,16 +1,16 @@
 # ROS TAMPLATE
 
-## Setup That I use initialy:
-* ## Microcontroller :
-  * ### STM 32 Bluepills (bluepill_f103c8)
-*  ## ROS2 Package :
-   *  ### ngetestyahbot
 
-## Requirements :
-* ## Libraries and tools:
-  * ### MicroROS
-  * ### Platform IO
-  * ### CMAKE
+# Spesifikasi Perangkat & Perangkat Lunak
+### Perangkat Keras
+- Microcontroller: STM32 Bluepill (F103C8T6)
+- Interface: USB-to-TTL (untuk flashing/serial) atau ST-Link.
+
+### Dependensi Sistem
+- ROS2 Distribution: (Contoh: Humble/Foxy)
+- Build System: CMake, Colcon
+- Embedded Toolchain: PlatformIO (PIO)
+- Client Library: Micro-ROS
 
 ## Run And Setup
 ### ROS2 SETUP:
@@ -25,6 +25,8 @@ colcon build --packages-select ngetestyahbot
 source install/setup.bash
 
 # >> Run the Listener Node:
+ros2 run <nama_package> <nama_node>
+# CONTOH:
 ros2 run ngetestyahbot stm_counter
 
 # Debugging
@@ -45,11 +47,18 @@ ros2 topic echo /stm_counter
 
 ### dependencies & lib
 CMakeLists.txt:
+Pembuatan Node dapat dilakukan di:
 ```cmake
+add_executable(<nama_node> path_node)
 ament_target_dependencies(
-  stm_counter
+  nodw
   rclcpp
-  std_msgs
+  <nama_node>
+)
+
+install(TARGETS
+  <name_node>
+  DESTINATION lib/${PROJECT_NAME}
 )
 ```
 
@@ -60,3 +69,4 @@ platform = <board_platform>
 board = <board_name>
 framework = arduino
 ```
+
