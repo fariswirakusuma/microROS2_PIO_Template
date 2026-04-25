@@ -1,4 +1,4 @@
-# GANESIS ROS TAMPLATE
+# ROS TAMPLATE
 
 ## Setup That I use initialy:
 * ## Microcontroller :
