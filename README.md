@@ -19,7 +19,8 @@
 # >> Build Workspace
 colcon build
 # or
-colcon build --packages-select ngetestyahbot
+colcon build --packages-select <nama_package>
+
 
 # >> Source the Environment:
 source install/setup.bash
