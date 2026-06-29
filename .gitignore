@@ -8,3 +8,4 @@ bin
 install
 .devcontainer/
 .pio
+packages.microsoft.gpg
